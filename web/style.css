@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:linear-gradient(to top ,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image7.png);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+
+}
+.menu-bar{
+    background: rgba(0, 128, 79, 0.349);
+    text-align: center;
+    padding: 0px;
+}
+.menu-bar ul
+{
+display: inline-flex;
+color: #fff;
+list-style: none;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+.active{
+    background:black;
+    border-radius: 10px;
+}
+.active,.menu-bar ul li:hover{
+    background: black;
+    border-radius: 10px;
+}
+.content{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #ff7200;
+}
+.content,.p:hover{
+    background: transparent;
+}
+.content p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.content marquee {
+    text-align: right;
+    margin-left:280px;
+    padding-left: 600px;
+    font-size: xx-large;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    padding-top: 80px;
+}
+.search{
+    width: 200px;
+    float:right;
+    text-align:center;
+    margin:auto;
+    height: 40px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    display: inline-table;
+    padding-right: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: medium;
+    color: #fff;
+    margin-right: 45px;
+    margin-top: 0px;
+}
+.btn{
+   
+  height: 40px;
+  width: 80px;
+  border-radius: 15px;
+  float: right;
+  cursor: pointer;
+  background: black;
+  color: #fff;
+  right: 5px;
+  font-size: 16px;
+  position: absolute;
+  margin-right: 60px;
+}
+.search,.btn:hover{
+color:#fff;
+background: transparent;
+}
+.form{
+    border-radius: 20px;
+    width: 230px;
+    height: 280px;
+    text-align: center;
+    padding-left: 20px;
+    position: absolute;
+    top: 50%;
+    background:black;
+    right: 75%;
+    
+}
+.form h1{
+    font-family: sans-serif;
+    color: #ff7200;
+    font-size: 25px;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+.form input{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+.form p1{
+    font-size: 15px;
+    display: block;
+    line-height: 35px;
+}
+.button{
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background:orangered;
+    color: white;
+    align-self: center;
+    margin-top: 25px;
+    padding: 5px;
+}
+.button:hover{
+    background: transparent;
+    color: #fff;
+}
+.sub-menu-1 {
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #ff7200;
+    margin-top: 15px;
+    margin-left: -15;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar img{
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.card1{
+    border-radius: 20px;
+    width: 150px;
+    height: 245px;
+    text-align: center;
+    padding-left: opx;
+    position: absolute;
+    top: 35%;
+    background:black;
+    right: 75%;
+    cursor: pointer;
+}
+.card1 h1{
+    font-family: sans-serif;
+    color: #ff7200;
+    font-size: 25px;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+.card1 img{
+    border-radius: 15px;
+}
+.card2 img{
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.card3 img{
+    border-radius: 15px;
+    margin-left: 900px;
+    padding: top 0;
+    border-top: 20px;
+}
+
